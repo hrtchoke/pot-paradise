@@ -1,9 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+
 .App {
   text-align: center;
 }
+.Nav{
+  width: calc(100vh - 100px); 
+  border-radius: 2px;
+  border-bottom: 20px 20px 20px rgb(0, 0, 0);
+}
+.Cardwidth{
+  width:18rem;
+}
 .Flexcontainer{
+  transform: scale(0.7);
+  justify-content: space-evenly;
+  position: relative;
   display: flex;
   flex-direction: row;
+  top: 100px;
+
+}
+.FlexItem{
+  width:18rem;
+  box-shadow: 2px 2px 8px 8px rgba(0, 0, 0, 0.26);
+  
 }
 .App-logo {
   height: 40vmin;
